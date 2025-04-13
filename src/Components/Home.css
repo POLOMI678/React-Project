@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .left, .right {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    justify-content: space-evenly;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .row reverse {
+    flex-direction: row-reverse;
+    margin-right: '8px';
+  }
+  h2 {
+    font-family: sans-serif;
+   
+  }
+
+  h2:hover {
+    color: dodgerblue;
+  }
